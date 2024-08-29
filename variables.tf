@@ -51,7 +51,7 @@ variable "instance_architecture" {
 variable "use_spot_instance" {
   description = "Whether to use spot or on-demand EC2 instance"
   type        = bool
-  default     = true
+  default     = false
 }
 
 variable "key_name" {
